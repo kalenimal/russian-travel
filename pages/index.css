@@ -37,3 +37,4 @@
 @import url(../blocks/place/__url-heading/_device/place__url-heading_device_tablet.css);
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/place/__paragraph/_amount-in-block/place__paragraph_amount-in-block_only.css);
+@import url(../blocks/cover/__link/cover__link.css);
