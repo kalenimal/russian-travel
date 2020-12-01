@@ -1,0 +1,36 @@
+.intro {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin: auto;
+    }
+    
+    @media all and (min-width: 1280px) {
+    .intro {
+    padding: 92px 294px 92px 0;
+    max-width: 690px;
+    }
+    }
+    
+    @media all and (max-width: 1279px) {
+        .intro {
+        padding: 92px 238px 92px 0;
+        max-width: 690px;
+        }
+        }
+    
+    @media all and (max-width: 1023px) {
+    .intro {
+    padding: 88px 0 88px 0;
+    max-width: 720px;
+    }
+    }
+    
+    @media all and (max-width: 767px) {
+    .intro {
+    padding: 64px 0 64px 0;
+    max-width: 288px;
+    }
+    }

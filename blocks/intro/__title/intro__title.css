@@ -1,0 +1,43 @@
+.intro__title {
+padding-bottom: 40px;
+margin: 0;
+font-weight: 900;
+font-style: normal;
+color: #FFFFFF;
+}
+
+@media all and (min-width: 1280px) {
+    .intro__title {
+    font-size: 54px;
+    line-height: 58px;
+    padding: 0 0 40px 0;
+    max-width: 690px;
+    }
+    }
+    
+    @media all and (max-width: 1279px) {
+    .intro__title {
+    font-size: 54px;
+    line-height: 58px;
+    padding: 0 0 40px 0;
+    max-width: 690px;
+    }
+    }
+    
+    @media all and (max-width: 1023px) {
+    .intro__title {
+    font-size: 54px;
+    line-height: 58px;
+    padding: 0 0 40px 0;
+    max-width: 720px;
+    }
+    }
+    
+    @media all  and (max-width: 767px) {
+    .intro__title {
+    font-size: 32px;
+    line-height: 35px;
+    padding: 0 0 40px 0;
+    max-width: 238px;
+    }
+    }
