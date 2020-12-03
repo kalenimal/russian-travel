@@ -1,53 +1,53 @@
 .place {
-list-style: none;
-display: -ms-grid;
-display: grid;
-margin: auto;
-grid-template-columns: 460px 484px;
-grid-template-rows: min-content;
-grid-template-areas: 
-'title website'
-'image paragraphs';
-column-gap: 40px;
-row-gap: 48px;
-padding: 0 0 80px 0;
+    list-style: none;
+    display: -ms-grid;
+    display: grid;
+    margin: auto;
+    grid-template-columns: 460px 484px;
+    grid-template-rows: min-content;
+    grid-template-areas:
+        "title website"
+        "image paragraphs";
+    column-gap: 40px;
+    row-gap: 48px;
+    padding: 0 0 80px 0;
 }
 
 .place:last-of-type {
-padding-bottom: 0;
+    padding-bottom: 0;
 }
-   
-@media all  and (max-width: 1279px) {
-.place {
--ms-grid-columns: 440px 32px 456px;
-grid-template-columns: 440px 456px;
--webkit-column-gap: 32px;
--moz-column-gap: 32px;
-column-gap: 32px;
+
+@media all and (max-width: 1279px) {
+    .place {
+        -ms-grid-columns: 440px 32px 456px;
+        grid-template-columns: 440px 456px;
+        -webkit-column-gap: 32px;
+        -moz-column-gap: 32px;
+        column-gap: 32px;
+    }
 }
+
+@media all and (max-width: 1023px) {
+    .place {
+        -ms-grid-columns: 340px 28px 352px;
+        grid-template-columns: 340px 352px;
+        -webkit-column-gap: 28px;
+        -moz-column-gap: 28px;
+        column-gap: 28px;
+        padding: 0 0 73px 0;
+    }
 }
-        
-@media all  and (max-width: 1023px) {
-.place {
--ms-grid-columns: 340px 28px 352px;
-grid-template-columns: 340px 352px;
--webkit-column-gap: 28px;
--moz-column-gap: 28px;
-column-gap: 28px;
-padding: 0 0 73px 0;
-}
-}
-        
-@media all  and  (max-width: 767px) {
-.place {
--ms-grid-columns: 320px;
-grid-template-columns: 320px;
-row-gap: 32px;
-column-gap: 0;
-padding: 0 0 49px 0;
-grid-template-areas: 
-'title'
-'image'
-'paragraphs';
-}
+
+@media all and (max-width: 767px) {
+    .place {
+        -ms-grid-columns: 320px;
+        grid-template-columns: 320px;
+        row-gap: 32px;
+        column-gap: 0;
+        padding: 0 0 49px 0;
+        grid-template-areas:
+            "title"
+            "image"
+            "paragraphs";
+    }
 }

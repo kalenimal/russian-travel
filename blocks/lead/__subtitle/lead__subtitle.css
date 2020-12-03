@@ -1,27 +1,27 @@
 .lead__subtitle {
-margin: 0 auto;
-text-align: center;
-font-weight: normal;
-color:  #FFFFFF;
-max-width: 640px;
-font-size: 30px;
-line-height: 36px;
-padding-top: 32px;
-padding-bottom: 64px;
+    margin: 0 auto;
+    text-align: center;
+    font-weight: normal;
+    color: #ffffff;
+    max-width: 640px;
+    font-size: 30px;
+    line-height: 36px;
+    padding-top: 32px;
+    padding-bottom: 64px;
 }
 
 @media all and (max-width: 1279px) {
-.lead__subtitle {
-padding-bottom: 56px;
-}
+    .lead__subtitle {
+        padding-bottom: 56px;
+    }
 }
 
 @media all and (max-width: 767px) {
-.lead__subtitle {
-font-size: 16px;
-line-height: 20px;
-max-width: 288px;
-padding-bottom: 40px;
-padding-top: 16px;
-}
+    .lead__subtitle {
+        font-size: 16px;
+        line-height: 20px;
+        max-width: 288px;
+        padding-bottom: 40px;
+        padding-top: 16px;
+    }
 }
